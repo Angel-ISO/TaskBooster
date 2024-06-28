@@ -1,0 +1,47 @@
+TaskBooster/
+├── src/
+│   ├── main/
+│   │   ├── main.js
+│   │   └── preload.js
+│   ├── renderer/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   │   ├── dashboard/
+│   │   │   │   ├── dashboard.html
+│   │   │   │   ├── dashboard.css
+│   │   │   │   └── dashboard.js
+│   │   │   ├── login/
+│   │   │   │   ├── login.html
+│   │   │   │   ├── login.css
+│   │   │   │   └── login.js
+│   │   │   ├── tasks/
+│   │   │   │   ├── tasks.html
+│   │   │   │   ├── tasks.css
+│   │   │   │   └── tasks.js
+│   │   │   ├── settings/
+│   │   │   │   ├── settings.html
+│   │   │   │   ├── settings.css
+│   │   │   │   └── settings.js
+│   │   ├── styles/
+│   │   │   ├── global.css
+│   │   │   └── variables.css
+│   │   └── utils/
+│   │       ├── api.js
+│   │       └── auth.js
+│   ├── db/
+│   │   ├── migrations/
+│   │   ├── models/
+│   │   ├── seeders/
+│   │   └── config.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── taskController.js
+│   │   ├── userController.js
+│   │   └── comodoroController.js
+│   └── services/
+│       ├── authService.js
+│       ├── taskService.js
+│       ├── userService.js
+│       └── comodoroService.js
+├── package.json
+└── README.md
